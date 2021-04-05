@@ -30,7 +30,7 @@ remoteconnection.setRemoteDescription(offer)
 // creating answer for 'offer'
 remoteconnection.createAnswer()
     .then(x => remoteconnection.setLocalDescription(x))
-    .the(x => console.log('success'))
+    .then(x => console.log('success'))
 
 // ........................
 // back to peer1.js(1'st browswer)
