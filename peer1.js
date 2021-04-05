@@ -14,7 +14,7 @@ localconnection.onicecandidate = e => console.log("new candidate: "+ JSON.string
 // creating offer to connect with another peer
 localconnection.createOffer()
 .then(x => localconnection.setLocalDescription(x))
-.then(console.lo("created"));
+.then(console.log("created"));
 
 // this generates as "new candidate" string.
 // this is peer1's localDescription
