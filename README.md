@@ -1,7 +1,7 @@
 # WebRTC-concept
 WebRTC  basic concept with demo
 
-In this demo we will connect two browswers which will be 2 peers and allow them to share data using RTCDataChannel
+In this demo we will connect two browsers which will be 2 peers and allow them to share data using RTCDataChannel
 	
 let one browser be peer1 and other be peer2
 
